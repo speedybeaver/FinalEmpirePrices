@@ -29,6 +29,11 @@ td{
 
 img{
   width:128px;
+  height:auto;
+}
+
+img:hover{
+  width:100px;
 }
 
 .price{
