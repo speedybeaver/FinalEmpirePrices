@@ -7,6 +7,21 @@ body{
   color: white;
 }
 
+hr{
+  border-style: none;
+  background-color:#101c2d;
+  border-top-style: solid;
+  border-width: 5px;
+  width: 10%;
+  transition: ease-out 0.3s;
+}
+
+hr:hover{
+  border-radius: 4px;
+  width: 30%;
+  border-top-style: solid;
+}
+
 h1{
   color: white;
   text-align: center;
@@ -27,13 +42,15 @@ td{
   width: 128px;
 }
 
+tr{width: 30%}
+
 img{
   width:128px;
-  height:auto;
+  transition: 0.2s ease-out;
 }
 
 img:hover{
-  width:100px;
+  width: 115px;
 }
 
 .price{
@@ -49,3 +66,9 @@ img:hover{
   font-size: 75px;
   text-align: left;
 }
+
+.ores{border-color: #26a8d4;}
+
+.woods{border-color: brown;}
+
+.crops{border-color: yellow;}
